@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: montserrat;
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('0112.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  nav {
+    background: linear-gradient(135deg, #070508, #4b4b58);
+    height: 80px;
+    width: 100%;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  ul li a:hover {
+    background-color: beige;
+    color: #000;
+  }
+  
+  ul li.active a {
+    background-color: beige;
+    color: black;
+  }
+  
+  .logo img {
+    float: left;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .title {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .title h1 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+  }
+  
+  
+  .button {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center;
+  }
+  
+  .button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    cursor: pointer;
+    margin: 0 30px; /* Add some spacing between buttons */
+    height: 200px;
+    width: 300px;
+    border-radius: 50px;
+  
+  }
+  
+  .btn:hover {
+    background-color: #087302;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+
+body{
+    font-family: montserrat;
+    }
+html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-image: url('01.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+nav{
+    background: linear-gradient(135deg, #070508, #4b4b58);
+    height: 80px;
+    width: 100%;
+    }
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    }
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    }
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+ul li a:hover{
+    background-color: beige;
+    color: #000;
+    }
+    
+ul li.active  a{
+    background-color:beige;
+    color:black;
+    }
+
+.logo img{
+    float :left;
+    width:250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    }
+
+/* Title */
+.title {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.title h1 {
+    font-size: 80px;
+    color: #ffffff;
+}
+
+/* About */
+.about {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #fbfbfb;
+    line-height: 1.6;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* Button */
+.button {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button .btn:hover {
+    background-color: #666;
+}
+
+       
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 180px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .btn {
+        padding: 5px 20px;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
